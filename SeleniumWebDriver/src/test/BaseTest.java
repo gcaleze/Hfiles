@@ -81,6 +81,4 @@ public class BaseTest {
 	public void cleanUp() {
 		reports.flush();
 	}
-
-
 }
