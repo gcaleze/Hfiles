@@ -214,7 +214,7 @@ public class LoginTests extends BaseTest {
 	
 	@DataProvider(name = "newData")
 	public Object[][] dataProvider() {
-		String excelPath = "loginTestData.xls";
+		String excelPath = "\\Excel\\loginTestData.xlsx";
 		String sheet_name = "Sheet1";
 		
 		ExcelUtility ExcelUtility = new ExcelUtility();

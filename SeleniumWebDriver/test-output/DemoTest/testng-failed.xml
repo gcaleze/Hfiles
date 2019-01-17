@@ -5,21 +5,13 @@
     <classes>
       <class name="test.LoginTests">
         <methods>
-          <include name="excelTest" invocation-numbers="1 2 3"/>
+          <include name="excelTest"/>
           <include name="setup"/>
           <include name="getResult"/>
-          <include name="dataDrivenLogin" invocation-numbers="1 2"/>
+          <include name="dataDrivenLogin" invocation-numbers="2"/>
           <include name="cleanUp"/>
         </methods>
       </class> <!-- test.LoginTests -->
-      <class name="test.Functions">
-        <methods>
-          <include name="globalSearchNoInput"/>
-          <include name="setup"/>
-          <include name="getResult"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- test.Functions -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [DemoTest] -->
