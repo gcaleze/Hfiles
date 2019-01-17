@@ -19,12 +19,14 @@ public class BaseTest {
 	ExtentReports reports;
 	ExtentHtmlReporter reporter;
 	ExtentTest logger;
+	String driverPath;
 	
 	
 	WebDriver driver;
 	
 	@BeforeClass (alwaysRun = true)
 	public void setup() {
+		locateDriver();
 		String reportPath = System.getProperty("user.dir") + "\\TestReports\\report.html";
 		String xmlConfig = System.getProperty("user.dir") + "\\src\\extent-config.xml";
 		String testerName = "Hurich Amanquiton";
@@ -39,7 +41,19 @@ public class BaseTest {
 		reports.setSystemInfo("OS", "Win 7");
 		reports.setSystemInfo("Tester", testerName);
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver",driverPath);	
+	}
+	
+	public void locateDriver() {
+		String OS = System.getProperty("os.name");
+		System.out.println("locateDriver()");
+		if (OS.equals("Windows 7")) {
+			driverPath = "C:\\Selenium\\chromedriver.exe";
+			System.out.println("Windows 7");
+		} else {
+			System.out.println("Other OS");
+			driverPath = "/usr/bin/chromedriver";
+		}
 	}
 	
 	@AfterMethod
