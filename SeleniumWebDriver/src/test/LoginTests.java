@@ -144,8 +144,8 @@ public class LoginTests extends BaseTest {
 //		Object[][] data = new Object[rows][col];
 		Object[][] data = new Object[3][2];
 		
-		data[0][0] = "hamanquiton";
-		data[0][1] = "hurricane101";
+		data[0][0] = "gemvo";
+		data[0][1] = "1234567";
 		
 		data[1][0] = "cdecastro";
 		data[1][1] = "1234567";
@@ -214,7 +214,7 @@ public class LoginTests extends BaseTest {
 	
 	@DataProvider(name = "newData")
 	public Object[][] dataProvider() {
-		String excelPath = "loginTestData.xlsx";
+		String excelPath = "loginTestData.xls";
 		String sheet_name = "Sheet1";
 		
 		ExcelUtility ExcelUtility = new ExcelUtility();
