@@ -37,8 +37,8 @@ public class LoginTests extends BaseTest {
 	@Test (priority = 2)
 	public void verifyLogin() throws InterruptedException {
 		logger = reports.createTest("Verify Login");
-		String username = "hamanquiton";
-		String password = "hurricane101";
+		String username = "gemvo";
+		String password = "1234567";
 		String expectedLoginTitle = "SSO - My Apps";
 		String postLoginTitle;
 		

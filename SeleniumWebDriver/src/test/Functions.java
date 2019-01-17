@@ -23,8 +23,8 @@ public class Functions extends BaseTest {
 		reporter.setAppendExisting(true);
 		logger = reports.createTest("Global Search Without Input");
 		String verifyLabel;
-		String username = "hamanquiton";
-		String password = "hurricane101";
+		String username = "gemvo";
+		String password = "1234567";
 		String expectedErr = 
 				"Can't search if we don't know what you're looking for. "
 				+ "Enter keyword(s) then try again";
