@@ -20,15 +20,16 @@ public class BaseTest {
 	ExtentHtmlReporter reporter;
 	ExtentTest logger;
 	String driverPath;
-	
+	String reportPath;
+	String xmlConfig;
 	
 	WebDriver driver;
 	
 	@BeforeClass (alwaysRun = true)
 	public void setup() {
 		locateDriver();
-		String reportPath = System.getProperty("user.dir") + "\\TestReports\\report.html";
-		String xmlConfig = System.getProperty("user.dir") + "\\src\\test\\java\\extent-config.xml";
+		reportPath = System.getProperty("user.dir") + "\\TestReports\\report.html";
+		xmlConfig = System.getProperty("user.dir") + "\\src\\test\\java\\extent-config.xml";
 		String testerName = "Hurich Amanquiton";
 		
 		reporter = new ExtentHtmlReporter(reportPath);
@@ -49,10 +50,14 @@ public class BaseTest {
 		System.out.println("locateDriver()");
 		if (OS.equals("Windows 7")) {
 			driverPath = "C:\\Selenium\\chromedriver.exe";
+			reportPath = System.getProperty("user.dir") + "\\TestReports\\report.html";
+			xmlConfig = System.getProperty("user.dir") + "\\src\\test\\java\\extent-config.xml";
 			System.out.println("Windows 7");
 		} else {
 			System.out.println("Other OS");
 			driverPath = "/usr/bin/chromedriver";
+			reportPath = System.getProperty("user.dir") + "/TestReports/report.html";
+			xmlConfig = System.getProperty("user.dir") + "/src/test/java/extent-config.xml";			
 		}
 	}
 	
