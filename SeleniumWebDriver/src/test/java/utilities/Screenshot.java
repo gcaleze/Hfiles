@@ -24,6 +24,7 @@ public class Screenshot extends test.BaseTest {
 		File srcFile = ts.getScreenshotAs(OutputType.FILE).getAbsoluteFile();
 		File target = new File(destination).getAbsoluteFile();
 		FileUtils.copyFile(srcFile, target);
+		System.out.println(target+"       ----------------------------------");
 
 		return destination;
 	}
