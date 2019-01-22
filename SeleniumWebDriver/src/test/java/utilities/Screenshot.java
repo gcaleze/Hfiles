@@ -15,13 +15,12 @@ public class Screenshot extends test.BaseTest {
 		String destination = "";
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		if (OS.equals("Windows 7")) {
-			destination = System.getProperty("user.dir") + "\\reportImgs\\" + fileName + ".png";
+			destination = System.getProperty("user.dir") + "\\TestReports\\" + fileName + ".png";
 			System.out.println(OS);
 		} else {
-			destination = System.getProperty("user.dir") + "/reportImgs/" + fileName + ".png";
+			destination = System.getProperty("user.dir") + "/TestReports/" + fileName + ".png";
 			System.out.println(OS);
 		}
-		
 		File srcFile = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(destination);
 		FileUtils.copyFile(srcFile, target);
