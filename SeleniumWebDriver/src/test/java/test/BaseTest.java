@@ -23,7 +23,7 @@ public class BaseTest {
 	String reportPath;
 	String xmlConfig;
 	
-	WebDriver driver;
+	public static WebDriver driver;
 	
 	@BeforeClass (alwaysRun = true)
 	public void setup() {
