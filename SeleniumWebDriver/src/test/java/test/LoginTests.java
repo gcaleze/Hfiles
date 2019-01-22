@@ -188,8 +188,9 @@ public class LoginTests extends BaseTest {
 			try {
 //				String imgPath = Screenshot.capture(driver, "test_"+ username);
 //				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath(imgPath));
-				Screenshot.capture(driver, "test_"+ username);
-				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath("/TestReports/"+"test_"+ username+".png"));
+				//Screenshot.capture(driver, "test_"+ username);
+				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath("/TestReports/Screenshots/" +"sample.png"));
+				//logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath(Screenshot.tackScreenshot()));
 
 			} catch (IOException e) {
 				e.printStackTrace();
