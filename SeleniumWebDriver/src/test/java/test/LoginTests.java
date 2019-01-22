@@ -10,7 +10,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.Status;
 
 import utilities.ExcelUtility;
@@ -187,8 +186,11 @@ public class LoginTests extends BaseTest {
 		} else {
 			logger.log(Status.FAIL, "Login Title mismatched");
 			try {
-				String imgPath = Screenshot.capture(driver, "test_"+ username);
-				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath(imgPath));
+//				String imgPath = Screenshot.capture(driver, "test_"+ username);
+//				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath(imgPath));
+				Screenshot.capture(driver, "test_"+ username);
+				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath("/TestReports/"+"test_"+ username+".png"));
+
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
