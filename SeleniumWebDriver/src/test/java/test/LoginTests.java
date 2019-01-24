@@ -22,7 +22,7 @@ public class LoginTests extends BaseTest {
 		logger = reports.createTest("Verify Title");
 		String expectedTitle = "SSO - Login";
 		
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.get("https://52.202.44.59:8181/sso4-portal/login");
 		
@@ -41,7 +41,7 @@ public class LoginTests extends BaseTest {
 		String expectedLoginTitle = "SSO - My Apps";
 		String postLoginTitle;
 		
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://52.202.44.59:8181/sso4-portal/login");
 		
@@ -92,7 +92,7 @@ public class LoginTests extends BaseTest {
 		
 		logger = reports.createTest("Verify Login - Data Driven (" + username + ")" );
 		
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.get("https://52.202.44.59:8181/sso4-portal/login");
 		
@@ -160,7 +160,7 @@ public class LoginTests extends BaseTest {
 	
 		logger = reports.createTest(
 				"Verify Login - Data Driven using Excel (" + username + ")" );
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("https://52.202.44.59:8181/sso4-portal/login");

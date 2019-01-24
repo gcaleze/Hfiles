@@ -3,9 +3,11 @@ package test;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -34,7 +36,7 @@ public class BaseTest {
 		
 		reporter = new ExtentHtmlReporter(reportPath);
 		reports = new ExtentReports();
-		//reporter.setAppendExisting(true);
+		reporter.setAppendExisting(true);
 		reports.attachReporter(reporter);
 		
 		

@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="3" ignored="0" total="10" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="DemoTest" duration-ms="144215" started-at="2019-01-17T13:42:43Z" finished-at="2019-01-17T13:45:07Z">
+  <suite name="Default suite" duration-ms="162530" started-at="2019-01-24T11:52:50Z" finished-at="2019-01-24T11:55:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="144215" started-at="2019-01-17T13:42:43Z" finished-at="2019-01-17T13:45:07Z">
+    <test name="Default test" duration-ms="162530" started-at="2019-01-24T11:52:50Z" finished-at="2019-01-24T11:55:33Z">
       <class name="test.LoginTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTests@e720b71]" name="setup" is-config="true" duration-ms="122" started-at="2019-01-17T13:42:43Z" finished-at="2019-01-17T13:42:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTests@66d1af89]" name="setup" is-config="true" duration-ms="125" started-at="2019-01-24T11:52:50Z" finished-at="2019-01-24T11:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:test.LoginTests@e720b71]" name="verifyTitle" duration-ms="8383" started-at="2019-01-17T13:42:43Z" finished-at="2019-01-17T13:42:52Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:test.LoginTests@66d1af89]" name="verifyTitle" duration-ms="9301" started-at="2019-01-24T11:52:50Z" finished-at="2019-01-24T11:52:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="8" started-at="2019-01-17T13:42:52Z" finished-at="2019-01-17T13:42:52Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="6" started-at="2019-01-24T11:52:59Z" finished-at="2019-01-24T11:52:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=LoginTests.verifyTitle()[pri:1, instance:test.LoginTests@e720b71] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=LoginTests.verifyTitle()[pri:1, instance:test.LoginTests@66d1af89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="verifyLogin()[pri:2, instance:test.LoginTests@e720b71]" name="verifyLogin" duration-ms="14585" started-at="2019-01-17T13:42:52Z" finished-at="2019-01-17T13:43:06Z">
+        <test-method status="PASS" signature="verifyLogin()[pri:2, instance:test.LoginTests@66d1af89]" name="verifyLogin" duration-ms="17311" started-at="2019-01-24T11:52:59Z" finished-at="2019-01-24T11:53:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-17T13:43:06Z" finished-at="2019-01-17T13:43:06Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="1" started-at="2019-01-24T11:53:17Z" finished-at="2019-01-24T11:53:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginTests.verifyLogin()[pri:2, instance:test.LoginTests@e720b71] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginTests.verifyLogin()[pri:2, instance:test.LoginTests@66d1af89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@e720b71]" name="dataDrivenLogin" duration-ms="13697" started-at="2019-01-17T13:43:06Z" data-provider="credentialData" finished-at="2019-01-17T13:43:20Z">
+        <test-method status="PASS" signature="dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@66d1af89]" name="dataDrivenLogin" duration-ms="15060" started-at="2019-01-24T11:53:17Z" data-provider="credentialData" finished-at="2019-01-24T11:53:32Z">
           <params>
             <param index="0">
               <value>
@@ -57,18 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataDrivenLogin -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-17T13:43:20Z" finished-at="2019-01-17T13:43:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=dataDrivenLogin status=SUCCESS method=LoginTests.dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@e720b71] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@e720b71]" name="dataDrivenLogin" duration-ms="13551" started-at="2019-01-17T13:43:20Z" data-provider="credentialData" finished-at="2019-01-17T13:43:34Z">
+        <test-method status="PASS" signature="dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@66d1af89]" name="dataDrivenLogin" duration-ms="15204" started-at="2019-01-24T11:53:32Z" data-provider="credentialData" finished-at="2019-01-24T11:53:47Z">
           <params>
             <param index="0">
               <value>
@@ -84,18 +73,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataDrivenLogin -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="1" started-at="2019-01-17T13:43:34Z" finished-at="2019-01-17T13:43:34Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-24T11:53:32Z" finished-at="2019-01-24T11:53:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dataDrivenLogin status=SUCCESS method=LoginTests.dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@e720b71] output={null}]]]>
+                <![CDATA[[TestResult name=dataDrivenLogin status=SUCCESS method=LoginTests.dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@66d1af89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@e720b71]" name="dataDrivenLogin" duration-ms="10944" started-at="2019-01-17T13:43:34Z" data-provider="credentialData" finished-at="2019-01-17T13:43:44Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-24T11:53:47Z" finished-at="2019-01-24T11:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenLogin status=SUCCESS method=LoginTests.dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@66d1af89]" name="dataDrivenLogin" duration-ms="12354" started-at="2019-01-24T11:53:47Z" data-provider="credentialData" finished-at="2019-01-24T11:53:59Z">
           <params>
             <param index="0">
               <value>
@@ -112,23 +112,23 @@
             <message>
               <![CDATA[invalid session id
   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 98 milliseconds
+Command duration or timeout: 23 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'SPHINX', ip: '192.168.143.146', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59383}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir11976_26297}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ebf7f721bece2b3ef2667cdd7f3325c3
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53002}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir36564_18402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4908b572d6fed6852573e67419105cb1
 *** Element info: {Using=xpath, value=//*[@id='rootPanel']/div[3]/div[3]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 98 milliseconds
+Command duration or timeout: 23 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'SPHINX', ip: '192.168.143.146', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59383}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir11976_26297}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ebf7f721bece2b3ef2667cdd7f3325c3
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53002}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir36564_18402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4908b572d6fed6852573e67419105cb1
 *** Element info: {Using=xpath, value=//*[@id='rootPanel']/div[3]/div[3]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -141,7 +141,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at test.LoginTests.dataDrivenLogin(LoginTests.java:126)
+at test.LoginTests.dataDrivenLogin(LoginTests.java:125)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -173,18 +173,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataDrivenLogin -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="6" started-at="2019-01-17T13:43:44Z" finished-at="2019-01-17T13:43:44Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="8" started-at="2019-01-24T11:53:59Z" finished-at="2019-01-24T11:53:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dataDrivenLogin status=FAILURE method=LoginTests.dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@e720b71] output={null}]]]>
+                <![CDATA[[TestResult name=dataDrivenLogin status=FAILURE method=LoginTests.dataDrivenLogin(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTests@66d1af89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@e720b71]" name="excelTest" duration-ms="14006" started-at="2019-01-17T13:43:45Z" data-provider="newData" finished-at="2019-01-17T13:43:59Z">
+        <test-method status="PASS" signature="excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@66d1af89]" name="excelTest" duration-ms="19784" started-at="2019-01-24T11:54:00Z" data-provider="newData" finished-at="2019-01-24T11:54:19Z">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelTest -->
-        <test-method status="PASS" signature="excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@e720b71]" name="excelTest" duration-ms="17934" started-at="2019-01-17T13:43:59Z" data-provider="newData" finished-at="2019-01-17T13:44:17Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="1" started-at="2019-01-24T11:54:19Z" finished-at="2019-01-24T11:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=excelTest status=SUCCESS method=LoginTests.excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@66d1af89]" name="excelTest" duration-ms="15036" started-at="2019-01-24T11:54:19Z" data-provider="newData" finished-at="2019-01-24T11:54:35Z">
           <params>
             <param index="0">
               <value>
@@ -216,29 +227,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-17T13:43:59Z" finished-at="2019-01-17T13:43:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=excelTest status=SUCCESS method=LoginTests.excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@e720b71] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-17T13:44:17Z" finished-at="2019-01-17T13:44:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=excelTest status=SUCCESS method=LoginTests.excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@e720b71] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@e720b71]" name="excelTest" duration-ms="11741" started-at="2019-01-17T13:44:17Z" data-provider="newData" finished-at="2019-01-17T13:44:29Z">
+        <test-method status="FAIL" signature="excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@66d1af89]" name="excelTest" duration-ms="13830" started-at="2019-01-24T11:54:35Z" data-provider="newData" finished-at="2019-01-24T11:54:48Z">
           <params>
             <param index="0">
               <value>
@@ -255,23 +244,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <message>
               <![CDATA[invalid session id
   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
+Command duration or timeout: 6 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'SPHINX', ip: '192.168.143.146', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59454}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir12024_8113}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d79e524052a8c224ddf585875ff8afc0
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53139}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir38788_1059}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cdb8b42bbe43dad67d00dd2f4bd7f998
 *** Element info: {Using=xpath, value=//*[@id='rootPanel']/div[3]/div[3]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
+Command duration or timeout: 6 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'SPHINX', ip: '192.168.143.146', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59454}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir12024_8113}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d79e524052a8c224ddf585875ff8afc0
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53139}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir38788_1059}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cdb8b42bbe43dad67d00dd2f4bd7f998
 *** Element info: {Using=xpath, value=//*[@id='rootPanel']/div[3]/div[3]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -284,7 +273,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at test.LoginTests.excelTest(LoginTests.java:202)
+at test.LoginTests.excelTest(LoginTests.java:203)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -316,18 +305,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="1" started-at="2019-01-17T13:44:29Z" finished-at="2019-01-17T13:44:29Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-24T11:54:35Z" finished-at="2019-01-24T11:54:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=excelTest status=FAILURE method=LoginTests.excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@e720b71] output={null}]]]>
+                <![CDATA[[TestResult name=excelTest status=SUCCESS method=LoginTests.excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@66d1af89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@e720b71]" name="excelTest" duration-ms="11207" started-at="2019-01-17T13:44:29Z" data-provider="newData" finished-at="2019-01-17T13:44:40Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="3" started-at="2019-01-24T11:54:48Z" finished-at="2019-01-24T11:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=excelTest status=FAILURE method=LoginTests.excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@66d1af89]" name="excelTest" duration-ms="12878" started-at="2019-01-24T11:54:48Z" data-provider="newData" finished-at="2019-01-24T11:55:01Z">
           <params>
             <param index="0">
               <value>
@@ -344,23 +344,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <message>
               <![CDATA[invalid session id
   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
+Command duration or timeout: 6 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'SPHINX', ip: '192.168.143.146', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59473}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir12400_19345}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: be0834fe74c7db1fd099ed0d4983ee3f
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53180}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir34812_31207}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fcaf9a4fb36211e7b3c8e7f7422df1e1
 *** Element info: {Using=xpath, value=//*[@id='rootPanel']/div[3]/div[3]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
+Command duration or timeout: 6 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'SPHINX', ip: '192.168.143.146', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59473}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir12400_19345}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: be0834fe74c7db1fd099ed0d4983ee3f
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53180}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\gcaleze\AppData\Local\Temp\scoped_dir34812_31207}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fcaf9a4fb36211e7b3c8e7f7422df1e1
 *** Element info: {Using=xpath, value=//*[@id='rootPanel']/div[3]/div[3]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -373,7 +373,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at test.LoginTests.excelTest(LoginTests.java:202)
+at test.LoginTests.excelTest(LoginTests.java:203)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -405,47 +405,47 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@e720b71]" name="getResult" is-config="true" duration-ms="2" started-at="2019-01-17T13:44:40Z" finished-at="2019-01-17T13:44:40Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTests@66d1af89]" name="getResult" is-config="true" duration-ms="4" started-at="2019-01-24T11:55:01Z" finished-at="2019-01-24T11:55:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=excelTest status=FAILURE method=LoginTests.excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@e720b71] output={null}]]]>
+                <![CDATA[[TestResult name=excelTest status=FAILURE method=LoginTests.excelTest(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTests@66d1af89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.LoginTests@e720b71]" name="cleanUp" is-config="true" duration-ms="219" started-at="2019-01-17T13:44:40Z" finished-at="2019-01-17T13:44:40Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.LoginTests@66d1af89]" name="cleanUp" is-config="true" duration-ms="198" started-at="2019-01-24T11:55:01Z" finished-at="2019-01-24T11:55:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- test.LoginTests -->
       <class name="test.Functions">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.Functions@1b26f7b2]" name="setup" is-config="true" duration-ms="8" started-at="2019-01-17T13:44:40Z" finished-at="2019-01-17T13:44:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.Functions@8646db9]" name="setup" is-config="true" duration-ms="3" started-at="2019-01-24T11:55:01Z" finished-at="2019-01-24T11:55:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="globalSearchNoInput()[pri:5, instance:test.Functions@1b26f7b2]" name="globalSearchNoInput" duration-ms="27378" started-at="2019-01-17T13:44:40Z" finished-at="2019-01-17T13:45:07Z">
+        <test-method status="PASS" signature="globalSearchNoInput()[pri:5, instance:test.Functions@8646db9]" name="globalSearchNoInput" duration-ms="31029" started-at="2019-01-24T11:55:01Z" finished-at="2019-01-24T11:55:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSearchNoInput -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Functions@1b26f7b2]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-17T13:45:07Z" finished-at="2019-01-17T13:45:07Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Functions@8646db9]" name="getResult" is-config="true" duration-ms="0" started-at="2019-01-24T11:55:32Z" finished-at="2019-01-24T11:55:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=globalSearchNoInput status=SUCCESS method=Functions.globalSearchNoInput()[pri:5, instance:test.Functions@1b26f7b2] output={null}]]]>
+                <![CDATA[[TestResult name=globalSearchNoInput status=SUCCESS method=Functions.globalSearchNoInput()[pri:5, instance:test.Functions@8646db9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.Functions@1b26f7b2]" name="cleanUp" is-config="true" duration-ms="35" started-at="2019-01-17T13:45:07Z" finished-at="2019-01-17T13:45:07Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.Functions@8646db9]" name="cleanUp" is-config="true" duration-ms="44" started-at="2019-01-24T11:55:32Z" finished-at="2019-01-24T11:55:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- test.Functions -->
-    </test> <!-- Test -->
-  </suite> <!-- DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

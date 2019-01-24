@@ -31,7 +31,7 @@ public class Functions extends BaseTest {
 				+ "Enter keyword(s) then try again";
 		boolean toggle = false;
 		
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.get("https://52.202.44.59:8181/sso4-portal/login");
 		
