@@ -15,24 +15,18 @@ public class Screenshot extends test.BaseTest {
 		String destination = "";
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		if (OS.equals("Windows 7")) {
-			destination = System.getProperty("user.dir") + "\\Screenshots\\" + fileName + ".png";
+			destination = System.getProperty("user.dir") + "\\TestReports\\Screenshots\\" + fileName + ".png";
 			System.out.println(OS);
 		} else {
-			destination = System.getProperty("user.dir") + "/Screenshots/" + fileName + ".png";
+			destination = System.getProperty("user.dir") + "/TestReports/Screenshots/" + fileName + ".png";
 			System.out.println(OS);
 		}
 		File srcFile = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(destination);
 		FileUtils.copyFile(srcFile, target);
-		System.out.println(destination+"       destination----------------------------------");
-		System.out.println(target+"       target----------------------------------");
+		System.out.println(destination + "       destination----------------------------------");
+		System.out.println(target + "       target----------------------------------");
 
 		return destination;
 	}
-//	public static File takeScreenshot() throws IOException{
-//		File destination = new File(System.getProperty("user.dir") + "/TestReports/Screenshots/" +"sample.png");
-//				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//				FileUtils.copyFile(scrFile, destination.getAbsoluteFile());
-//		return destination;
-//	}
 }

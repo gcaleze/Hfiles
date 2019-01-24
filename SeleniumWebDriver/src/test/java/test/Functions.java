@@ -102,9 +102,9 @@ public class Functions extends BaseTest {
 		} else {
 			
 			try {
-				String imgPath = Screenshot.capture(driver, "test_"+ verifyLabel);
-				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath(imgPath));
-				//logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath(Screenshot.takeScreenshot().getAbsolutePath()));
+				Screenshot.capture(driver, "test_"+ verifyLabel);
+				//logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath(imgPath));
+				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath("Screenshots/test_"+verifyLabel+".png"));
 				logger.log(Status.FAIL, "Error Message Mismatch");
 				Thread.sleep(1000);
 				driver.findElement(By.xpath("//*[@id='sso']/div[9]/div/div[2]/button[2]")).click();
