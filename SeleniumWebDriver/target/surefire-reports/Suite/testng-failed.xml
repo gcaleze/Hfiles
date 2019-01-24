@@ -3,11 +3,20 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
+      <class name="test.Functions">
+        <methods>
+          <include name="globalSearchNoInput"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- test.Functions -->
       <class name="test.LoginTests">
         <methods>
+          <include name="excelTest" invocation-numbers="1 2 3"/>
           <include name="setup"/>
-          <include name="verifyTitle"/>
           <include name="getResult"/>
+          <include name="dataDrivenLogin" invocation-numbers="2"/>
           <include name="cleanUp"/>
         </methods>
       </class> <!-- test.LoginTests -->
