@@ -34,7 +34,7 @@ public class BaseTest {
 		
 		reporter = new ExtentHtmlReporter(reportPath);
 		reports = new ExtentReports();
-		reporter.setAppendExisting(true);
+		//reporter.setAppendExisting(true);
 		reports.attachReporter(reporter);
 		
 		
