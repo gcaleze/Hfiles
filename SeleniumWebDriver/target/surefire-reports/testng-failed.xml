@@ -5,11 +5,10 @@
     <classes>
       <class name="test.LoginTests">
         <methods>
-          <include name="verifyLogin"/>
-          <include name="excelTest" invocation-numbers="0 2 3"/>
+          <include name="excelTest" invocation-numbers="2 3"/>
           <include name="setup"/>
           <include name="getResult"/>
-          <include name="dataDrivenLogin" invocation-numbers="0 2"/>
+          <include name="dataDrivenLogin" invocation-numbers="2"/>
           <include name="cleanUp"/>
         </methods>
       </class> <!-- test.LoginTests -->

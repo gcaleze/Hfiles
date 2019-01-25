@@ -3,11 +3,9 @@ package test;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -18,20 +16,19 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class BaseTest {
 	
-	ExtentReports reports;
+	protected ExtentReports reports;
 	ExtentHtmlReporter reporter;
-	ExtentTest logger;
+	protected ExtentTest logger;
 	String driverPath;
 	String reportPath;
 	String xmlConfig;
-	
-	public static WebDriver driver;
+	protected WebDriver driver;
 	
 	@BeforeClass (alwaysRun = true)
 	public void setup() {
 		locateFiles();
-//		reportPath = System.getProperty("user.dir") + "\\TestReports\\report.html";
-//		xmlConfig = System.getProperty("user.dir") + "\\src\\test\\java\\extent-config.xml";
+		//String reportPath = System.getProperty("user.dir") + "\\TestReports\\report.html";
+		//String xmlConfig = System.getProperty("user.dir") + "\\src\\extent-config.xml";
 		String testerName = "Hurich Amanquiton";
 		
 		reporter = new ExtentHtmlReporter(reportPath);
@@ -49,7 +46,6 @@ public class BaseTest {
 	
 	public void locateFiles() {
 		String OS = System.getProperty("os.name");
-		System.out.println("locateDriver()");
 		if (OS.equals("Windows 7")) {
 			driverPath = "C:\\Selenium\\chromedriver.exe";
 			reportPath = System.getProperty("user.dir") + "\\TestReports\\report.html";
@@ -88,4 +84,6 @@ public class BaseTest {
 	public void cleanUp() {
 		reports.flush();
 	}
+
+
 }

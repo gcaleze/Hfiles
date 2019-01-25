@@ -187,7 +187,6 @@ public class LoginTests extends BaseTest {
 			logger.log(Status.FAIL, "Login Title mismatched");
 			try {
 				Screenshot.capture(driver, "test_"+ username);
-				//System.out.println(imgPath+"        =================================");
 				logger.log(Status.FAIL, "image below: " + logger.addScreenCaptureFromPath("Screenshots/test_"+username+".png"));
 				
 			} catch (IOException e) {
